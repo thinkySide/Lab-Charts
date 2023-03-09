@@ -44,12 +44,22 @@ iOS Library Charts 연구소입니다.
 - [jiwift님의 티스토리](https://jiwift.tistory.com/entry/iOSSwift-Charts-%EA%B7%B8%EB%9E%98%ED%94%84-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-Bar-Chart-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0-%EB%B0%94-%EC%B0%A8%ED%8A%B8-%EA%B7%B8%EB%A6%AC%EA%B8%B0)
 
 ## 6. 연구일지
-- BarChartView 만들어보기 (23.03.09) 
+### BarChartView 만들어보기 (23.03.09)
+블로그 예제를 참고해 차트 뷰를 만들어봤다. 라이브러리가 쓰기 쉬우면서도 강력한 것 같다.
+
 <img width="300" src="https://user-images.githubusercontent.com/113565086/223921869-4243a5bf-a98d-4cd8-ae6d-29072f9ea543.png">
 
-- LineChartView 만들어보기, 2개 이상 데이터 띄우기 (23.03.09) 
+### LineChartView 만들어보기, 2개 이상 데이터 띄우기 (23.03.09)   
+두개 이상의 데이터도 문제없이 출력이 가능하다.
+
 <img width="300" src="https://user-images.githubusercontent.com/113565086/223931072-6dbd14b9-2ba5-408b-ba96-46cc45d22887.png">
 
-- LineChartView 디자인 커스텀 (23.03.09)
+### LineChartView 디자인 커스텀 (23.03.09)
+Report 페이지와 거의 동일한 디자인을 적용해봤다.
+
 <img width="300" src="https://user-images.githubusercontent.com/113565086/223939472-50e63707-b1f0-4ddc-9151-36d442813174.png">
 
+### 실제 데이터 밀어 넣어보기 (23.03.09)     
+400개가 조금 넘는 데이터인데, 생각보다 가시성이 괜찮은 듯 하다.
+
+<img width="300" src="https://user-images.githubusercontent.com/113565086/223949424-d974b432-2869-487c-b3db-d9369438a8a4.png">

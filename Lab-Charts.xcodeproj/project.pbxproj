@@ -14,6 +14,7 @@
 		0798C8FC29B9630B0020B350 /* Lab_Charts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0798C8FA29B9630B0020B350 /* Lab_Charts.xcdatamodeld */; };
 		0798C8FE29B9630C0020B350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0798C8FD29B9630C0020B350 /* Assets.xcassets */; };
 		0798C90129B9630C0020B350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0798C8FF29B9630C0020B350 /* LaunchScreen.storyboard */; };
+		613BBD489DBDAB5D0FAE3C51 /* Pods_Lab_Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DCF9D7FE706290EDEDC36B2 /* Pods_Lab_Charts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		0798C8FD29B9630C0020B350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0798C90029B9630C0020B350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0798C90229B9630C0020B350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DCF9D7FE706290EDEDC36B2 /* Pods_Lab_Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab_Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4730630D6A8AF2A17767EBEF /* Pods-Lab-Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab-Charts.release.xcconfig"; path = "Target Support Files/Pods-Lab-Charts/Pods-Lab-Charts.release.xcconfig"; sourceTree = "<group>"; };
+		F4C14C884721C42666EE75C1 /* Pods-Lab-Charts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab-Charts.debug.xcconfig"; path = "Target Support Files/Pods-Lab-Charts/Pods-Lab-Charts.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613BBD489DBDAB5D0FAE3C51 /* Pods_Lab_Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				0798C8F029B9630B0020B350 /* Lab-Charts */,
 				0798C8EF29B9630B0020B350 /* Products */,
+				12A6FE01FCA2C24C8FFEA41F /* Pods */,
+				67A8BF01B60350F22B3E94CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,24 @@
 			path = "Lab-Charts";
 			sourceTree = "<group>";
 		};
+		12A6FE01FCA2C24C8FFEA41F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4C14C884721C42666EE75C1 /* Pods-Lab-Charts.debug.xcconfig */,
+				4730630D6A8AF2A17767EBEF /* Pods-Lab-Charts.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		67A8BF01B60350F22B3E94CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DCF9D7FE706290EDEDC36B2 /* Pods_Lab_Charts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0798C90529B9630C0020B350 /* Build configuration list for PBXNativeTarget "Lab-Charts" */;
 			buildPhases = (
+				4FA0F90BACA0FCFFEF4A1D3E /* [CP] Check Pods Manifest.lock */,
 				0798C8EA29B9630B0020B350 /* Sources */,
 				0798C8EB29B9630B0020B350 /* Frameworks */,
 				0798C8EC29B9630B0020B350 /* Resources */,
+				76E92E3B7AF91B9769BA62ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FA0F90BACA0FCFFEF4A1D3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lab-Charts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76E92E3B7AF91B9769BA62ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab-Charts/Pods-Lab-Charts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lab-Charts/Pods-Lab-Charts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lab-Charts/Pods-Lab-Charts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0798C8EA29B9630B0020B350 /* Sources */ = {
@@ -286,6 +355,7 @@
 		};
 		0798C90629B9630C0020B350 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C14C884721C42666EE75C1 /* Pods-Lab-Charts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +384,7 @@
 		};
 		0798C90729B9630C0020B350 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4730630D6A8AF2A17767EBEF /* Pods-Lab-Charts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

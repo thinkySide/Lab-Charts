@@ -14,7 +14,7 @@ iOS Library Charts 연구소입니다.
 
 - 꺾은선 그래프 만들기
   - 그래프 커스텀 (컬러, 크기, 스타일 등)
-  - 2개 이상 중첩된 꺾은선 그래프
+  - ✅ ~~2개 이상 중첩된 꺾은선 그래프~~
   - 버튼 클릭을 통한 여러 개의 그래프 중 단일 그래프 선택
   - 그래프 터치 이벤트를 통한 해당 위치 데이터 시각화 (ex: 토스 증권 그래프)
 - 도넛 차트 만들기
@@ -40,6 +40,12 @@ iOS Library Charts 연구소입니다.
 
 - iOS를 위한 개발자문서가 따로 존재하지 않고, Android 기반 문서만 있음. 95% 이상의 내용이 동일하다고 함.
 
-## 5. 연구일지
-- [23.03.09] BarChartView 만들어보기   
+## 5. 레퍼런스
+- [jiwift님의 티스토리](https://jiwift.tistory.com/entry/iOSSwift-Charts-%EA%B7%B8%EB%9E%98%ED%94%84-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-Bar-Chart-%ED%91%9C%EC%8B%9C%ED%95%98%EA%B8%B0-%EB%B0%94-%EC%B0%A8%ED%8A%B8-%EA%B7%B8%EB%A6%AC%EA%B8%B0)
+
+## 6. 연구일지
+- BarChartView 만들어보기 (23.03.09) 
 <img width="300" src="https://user-images.githubusercontent.com/113565086/223921869-4243a5bf-a98d-4cd8-ae6d-29072f9ea543.png">
+
+- LineChartView 만들어보기, 2개 이상 데이터 띄우기 (23.03.09) 
+<img width="300" src="https://user-images.githubusercontent.com/113565086/223931072-6dbd14b9-2ba5-408b-ba96-46cc45d22887.png">

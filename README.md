@@ -7,7 +7,7 @@ iOS Library Charts 연구소입니다.
 
 리포트(통계) 페이지 내 데이터를 시각화해야 합니다.   
 애플에서 기본적으로 그래프를 위해 제공하는 프레임워크는 따로 없습니다. (직접 UIView와 애니메이션을 통해 그려야합니다.)   
-그래서 흔히 가장 많이 사용하는 'Charts' Library를 통해 만들어보기로 결정했습니다.
+그래서 흔히 가장 많이 사용하는 ['Charts'](https://github.com/danielgindi/Charts) Library를 통해 만들어보기로 결정했습니다.
 
 
 ### 연구 목표   

@@ -41,5 +41,5 @@ iOS Library Charts 연구소입니다.
 - iOS를 위한 개발자문서가 따로 존재하지 않고, Android 기반 문서만 있음. 95% 이상의 내용이 동일하다고 함.
 
 ## 5. 연구일지
-- BarChartView 만들어보기 (23.03.09)   
-<img width="200" src="https://user-images.githubusercontent.com/113565086/223921869-4243a5bf-a98d-4cd8-ae6d-29072f9ea543.png">
+- [23.03.09] BarChartView 만들어보기   
+<img width="300" src="https://user-images.githubusercontent.com/113565086/223921869-4243a5bf-a98d-4cd8-ae6d-29072f9ea543.png">

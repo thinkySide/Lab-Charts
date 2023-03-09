@@ -13,7 +13,7 @@ iOS Library Charts 연구소입니다.
 ## 2. 연구 목표   
 
 - 꺾은선 그래프 만들기
-  - 그래프 커스텀 (컬러, 크기, 스타일 등)
+  - ✅ ~~그래프 커스텀 (컬러, 크기, 스타일 등)~~
   - ✅ ~~2개 이상 중첩된 꺾은선 그래프~~
   - 버튼 클릭을 통한 여러 개의 그래프 중 단일 그래프 선택
   - 그래프 터치 이벤트를 통한 해당 위치 데이터 시각화 (ex: 토스 증권 그래프)
@@ -49,3 +49,7 @@ iOS Library Charts 연구소입니다.
 
 - LineChartView 만들어보기, 2개 이상 데이터 띄우기 (23.03.09) 
 <img width="300" src="https://user-images.githubusercontent.com/113565086/223931072-6dbd14b9-2ba5-408b-ba96-46cc45d22887.png">
+
+- LineChartView 디자인 커스텀 (23.03.09)
+<img width="300" src="https://user-images.githubusercontent.com/113565086/223939472-50e63707-b1f0-4ddc-9151-36d442813174.png">
+

@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0798C8F229B9630B0020B350 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0798C8F129B9630B0020B350 /* AppDelegate.swift */; };
 		0798C8F429B9630B0020B350 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0798C8F329B9630B0020B350 /* SceneDelegate.swift */; };
-		0798C8F629B9630B0020B350 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0798C8F529B9630B0020B350 /* ViewController.swift */; };
+		0798C8F629B9630B0020B350 /* BarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0798C8F529B9630B0020B350 /* BarChartViewController.swift */; };
 		0798C8F929B9630B0020B350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0798C8F729B9630B0020B350 /* Main.storyboard */; };
 		0798C8FC29B9630B0020B350 /* Lab_Charts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0798C8FA29B9630B0020B350 /* Lab_Charts.xcdatamodeld */; };
 		0798C8FE29B9630C0020B350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0798C8FD29B9630C0020B350 /* Assets.xcassets */; };
 		0798C90129B9630C0020B350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0798C8FF29B9630C0020B350 /* LaunchScreen.storyboard */; };
+		0798C90B29B979510020B350 /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0798C90A29B979510020B350 /* BarChartView.swift */; };
 		613BBD489DBDAB5D0FAE3C51 /* Pods_Lab_Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DCF9D7FE706290EDEDC36B2 /* Pods_Lab_Charts.framework */; };
 /* End PBXBuildFile section */
 
@@ -21,12 +22,13 @@
 		0798C8EE29B9630B0020B350 /* Lab-Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab-Charts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0798C8F129B9630B0020B350 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0798C8F329B9630B0020B350 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0798C8F529B9630B0020B350 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0798C8F529B9630B0020B350 /* BarChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartViewController.swift; sourceTree = "<group>"; };
 		0798C8F829B9630B0020B350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0798C8FB29B9630B0020B350 /* Lab_Charts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lab_Charts.xcdatamodel; sourceTree = "<group>"; };
 		0798C8FD29B9630C0020B350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0798C90029B9630C0020B350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0798C90229B9630C0020B350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0798C90A29B979510020B350 /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
 		0DCF9D7FE706290EDEDC36B2 /* Pods_Lab_Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lab_Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4730630D6A8AF2A17767EBEF /* Pods-Lab-Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab-Charts.release.xcconfig"; path = "Target Support Files/Pods-Lab-Charts/Pods-Lab-Charts.release.xcconfig"; sourceTree = "<group>"; };
 		F4C14C884721C42666EE75C1 /* Pods-Lab-Charts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lab-Charts.debug.xcconfig"; path = "Target Support Files/Pods-Lab-Charts/Pods-Lab-Charts.debug.xcconfig"; sourceTree = "<group>"; };
@@ -67,7 +69,8 @@
 			children = (
 				0798C8F129B9630B0020B350 /* AppDelegate.swift */,
 				0798C8F329B9630B0020B350 /* SceneDelegate.swift */,
-				0798C8F529B9630B0020B350 /* ViewController.swift */,
+				0798C8F529B9630B0020B350 /* BarChartViewController.swift */,
+				0798C90929B9792C0020B350 /* View */,
 				0798C8F729B9630B0020B350 /* Main.storyboard */,
 				0798C8FD29B9630C0020B350 /* Assets.xcassets */,
 				0798C8FF29B9630C0020B350 /* LaunchScreen.storyboard */,
@@ -77,13 +80,20 @@
 			path = "Lab-Charts";
 			sourceTree = "<group>";
 		};
+		0798C90929B9792C0020B350 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0798C90A29B979510020B350 /* BarChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		12A6FE01FCA2C24C8FFEA41F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				F4C14C884721C42666EE75C1 /* Pods-Lab-Charts.debug.xcconfig */,
 				4730630D6A8AF2A17767EBEF /* Pods-Lab-Charts.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -210,8 +220,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0798C8F629B9630B0020B350 /* ViewController.swift in Sources */,
+				0798C8F629B9630B0020B350 /* BarChartViewController.swift in Sources */,
 				0798C8F229B9630B0020B350 /* AppDelegate.swift in Sources */,
+				0798C90B29B979510020B350 /* BarChartView.swift in Sources */,
 				0798C8FC29B9630B0020B350 /* Lab_Charts.xcdatamodeld in Sources */,
 				0798C8F429B9630B0020B350 /* SceneDelegate.swift in Sources */,
 			);
